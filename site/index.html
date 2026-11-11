@@ -3,66 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121512">
   <meta name="description" content="Pronóstico y monitoreo de pasajeros mensuales en la Línea 1 del Metro de Lima.">
-  <title>Pulso de Movilidad</title>
+  <title>Pulso de Movilidad · Metro de Lima</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" type="module"></script>
 </head>
 <body>
   <header class="masthead">
     <div class="shell masthead-inner">
-      <span class="brand"><i aria-hidden="true"></i> Pulso de Movilidad</span>
-      <a href="https://www.gob.pe/institucion/mtc/informes-publicaciones/345063-estadistica-servicios-de-transporte-terrestre-por-ferrovia-servicio-de-pasajeros">Datos del MTC ↗</a>
+      <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>Pulso de Movilidad</a>
+      <a class="source-link" href="https://www.gob.pe/institucion/mtc/informes-publicaciones/345063-estadistica-servicios-de-transporte-terrestre-por-ferrovia-servicio-de-pasajeros">Datos del MTC <span aria-hidden="true">↗︎</span></a>
     </div>
   </header>
   <main class="shell">
-    <section class="intro">
+    <section class="intro" aria-labelledby="title">
       <div>
-        <p class="eyebrow" id="source">Perú · Línea 1 del Metro de Lima</p>
-        <h1>Pasajeros por estación</h1>
-        <p>Compara las predicciones con los pasajeros observados y revisa la decisión de promoción del modelo.</p>
+        <p class="eyebrow"><span class="line-id">L1</span> Metro de Lima</p>
+        <h1 id="title">Pasajeros por estación</h1>
+        <p class="intro-copy">Explora el tráfico mensual de la Línea 1 y compara el pronóstico con los datos observados.</p>
       </div>
-      <div class="period"><span>Ventana de prueba</span><strong id="period">Cargando…</strong></div>
+      <div class="route" aria-hidden="true">
+        <div class="route-line"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="route-ends"><span>Villa El Salvador</span><span>Bayóvar</span></div>
+      </div>
     </section>
-    <p id="status" role="status"></p>
+    <p id="status" role="status">Cargando el reporte…</p>
     <div id="dashboard" hidden>
-      <section class="metrics" aria-label="Resultados de la evaluación">
-        <article><h2>Modelo activo</h2><strong id="active"></strong><p id="decision"></p></article>
-        <article><h2>Error medio en prueba</h2><strong id="mae"></strong><p>Pasajeros por estación y mes · MAE</p></article>
-        <article><h2>Alertas en prueba</h2><strong id="alerts"></strong><p>Ventanas estación/trimestre con alguna señal</p></article>
-      </section>
-      <section class="panel">
-        <div class="panel-heading">
-          <div><h2>Pronóstico y pasajeros observados</h2><p>Reproducción histórica con horizonte de un mes.</p></div>
-          <label for="zone">Estación<select id="zone"></select></label>
-        </div>
-        <div class="legend" aria-hidden="true"><span>Observado</span><span>Estacional</span><span>Candidato</span></div>
-        <canvas id="chart" role="img" aria-label="Serie mensual de pasajeros observados y pronosticados. Los valores están disponibles en la tabla de esta sección."></canvas>
-        <details><summary>Ver valores mensuales</summary><div class="scroll"><table>
-          <thead><tr><th scope="col">Fecha</th><th scope="col">Observado</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
-          <tbody id="series"></tbody>
-        </table></div></details>
-      </section>
+      <div class="overview">
+        <section class="panel chart-panel" aria-labelledby="chart-title">
+          <div class="panel-heading">
+            <div>
+              <h2 id="chart-title">Pronóstico y pasajeros observados</h2>
+              <p id="period"></p>
+            </div>
+            <label for="zone">Estación<select id="zone"></select></label>
+          </div>
+          <ul class="legend" aria-label="Series del gráfico">
+            <li class="observed">Observado</li><li class="baseline">Estacional</li><li class="challenger">Candidato</li>
+          </ul>
+          <div class="chart-wrap">
+            <canvas id="chart" role="img" aria-label="Serie mensual de pasajeros. Consulta los valores exactos en la tabla debajo del gráfico."></canvas>
+            <div id="chart-tooltip" class="tooltip" aria-hidden="true" hidden></div>
+          </div>
+          <details><summary>Ver valores mensuales</summary>
+            <div class="scroll"><table aria-label="Pasajeros por mes">
+              <thead><tr><th scope="col">Mes</th><th scope="col">Observado</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
+              <tbody id="series"></tbody>
+            </table></div>
+          </details>
+        </section>
+        <aside class="metrics" aria-label="Resultados de las 26 estaciones">
+          <article class="metric-active"><h2>Modelo activo</h2><strong id="active"></strong><p id="decision"></p></article>
+          <article><h2>Error medio en prueba</h2><strong id="mae"></strong><p>Pasajeros por estación y mes · MAE</p></article>
+          <article><h2>Alertas en prueba</h2><strong id="alerts"></strong><p>Combinaciones de estación y trimestre</p></article>
+        </aside>
+      </div>
       <div class="bottom">
         <section class="panel">
           <h2>Comparación de modelos</h2>
-          <p>Error medio absoluto en pasajeros. Menor es mejor.</p>
+          <p>Error medio absoluto para las 26 estaciones.</p>
           <div class="scroll"><table>
             <thead><tr><th scope="col">Ventana</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
             <tbody id="comparison"></tbody>
           </table></div>
-          <p id="promotion"></p>
+          <p id="promotion" class="note"></p>
         </section>
         <section class="panel">
           <h2>Monitoreo de la estación</h2>
-          <p>Drift de las entradas y error observado frente a validación.</p>
+          <p id="monitor-station"></p>
           <div class="scroll"><table>
             <thead><tr><th scope="col">Trimestre</th><th scope="col">Drift</th><th scope="col">MAE actual / ref.</th><th scope="col">Estado</th></tr></thead>
             <tbody id="monitor"></tbody>
           </table></div>
         </section>
       </div>
-      <footer><span id="run"></span><a href="report.json">Descargar reporte JSON</a></footer>
+      <footer><span id="run"></span><a href="report.json" download>Descargar reporte JSON <span aria-hidden="true">↓</span></a></footer>
     </div>
   </main>
 </body>
