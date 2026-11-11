@@ -12,7 +12,7 @@ import pandas as pd
 from sklearn.ensemble import HistGradientBoostingRegressor
 from threadpoolctl import threadpool_limits
 
-from pulso.data import SOURCE, ZONES, load_data
+from pulso.data import DATASET, SOURCE, load_data
 from pulso.evaluation import monitor, promotion, scores
 from pulso.features import FEATURES, make_features
 
@@ -29,25 +29,29 @@ def write_json(path, contents):
         temporary.unlink(missing_ok=True)
 
 
-def time_split(frame, start):
-    month = pd.Period(start, freq="M")
-    train = frame[frame["day"] < (month + 6).start_time].copy()
-    validation = frame[frame["day"].between((month + 9).start_time, (month + 11).start_time, inclusive="left")].copy()
-    test = frame[frame["day"].between((month + 14).start_time, (month + 16).start_time, inclusive="left")].copy()
+def time_split(frame):
+    last = frame["day"].max().to_period("M")
+    test_start = (last - 11).start_time
+    validation_start = (last - 23).start_time
+    train = frame[frame["day"] < validation_start - pd.DateOffset(months=1)].copy()
+    validation = frame[frame["day"].between(
+        validation_start, test_start - pd.DateOffset(months=1), inclusive="left",
+    )].copy()
+    test = frame[frame["day"] >= test_start].copy()
     if any(group.empty or group["trips"].isna().any() for group in (train, validation, test)):
-        raise ValueError("El historial no cubre las tres ventanas")
+        raise ValueError("El historial no cubre entrenamiento, validación y prueba")
     return train, validation, test
 
 
-def run(start, raw, root, synthetic=False, tracking=True, publish=None):
-    start = str(pd.Period(start, freq="M"))
+def run(data=DATASET, root="runs", tracking=True, publish=None):
     root = Path(root)
-    kind = "synthetic" if synthetic else "tlc"
-    history, manifest = load_data(start, raw, synthetic)
+    kind = "metro-lima"
+    history, manifest, zones = load_data(data)
+    start = history["day"].min().strftime("%Y-%m")
     history = history.sort_values(["day", "zone"]).reset_index(drop=True)
     dataset_hash = hashlib.sha256(history.to_csv(index=False).encode()).hexdigest()
     LOGGER.info("source=%s rows=%d sha256=%s", kind, len(history), dataset_hash)
-    train, validation, test = time_split(make_features(history), start)
+    train, validation, test = time_split(make_features(history))
     model = HistGradientBoostingRegressor(
         loss="poisson", max_iter=120, max_leaf_nodes=15, min_samples_leaf=12, random_state=21,
     )
@@ -68,10 +72,10 @@ def run(start, raw, root, synthetic=False, tracking=True, publish=None):
         "run_id": run_id,
         "kind": kind,
         "start": start,
-        "source": SOURCE if not synthetic else None,
+        "source": SOURCE,
         "dataset_sha256": dataset_hash,
         "sources": manifest,
-        "zones": ZONES,
+        "zones": zones,
         "windows": {
             name: [group["day"].min().date().isoformat(), group["day"].max().date().isoformat()]
             for name, group in (("train", train), ("validation", validation), ("test", test))
@@ -80,7 +84,7 @@ def run(start, raw, root, synthetic=False, tracking=True, publish=None):
         "decision": decision,
         "monitoring": monitor(validation, test, decision["active"]),
         "predictions": [
-            [row.day.date().isoformat(), int(row.zone), int(row.trips), round(row.baseline, 2), round(row.challenger, 2)]
+            [row.day.strftime("%Y-%m"), int(row.zone), int(row.trips), round(row.baseline, 2), round(row.challenger, 2)]
             for row in test.itertuples(index=False)
         ],
     }
@@ -100,16 +104,14 @@ def run(start, raw, root, synthetic=False, tracking=True, publish=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Entrena y evalúa el pronóstico diario")
-    parser.add_argument("--start", default="2023-07")
-    parser.add_argument("--raw", default="data/raw")
+    parser = argparse.ArgumentParser(description="Entrena y evalúa el pronóstico mensual")
+    parser.add_argument("--data", type=Path, default=DATASET)
     parser.add_argument("--root", default="runs")
-    parser.add_argument("--synthetic", action="store_true")
     parser.add_argument("--no-tracking", action="store_true")
     parser.add_argument("--publish", type=Path)
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-    run(args.start, args.raw, args.root, args.synthetic, not args.no_tracking, args.publish)
+    run(args.data, args.root, not args.no_tracking, args.publish)
 
 
 if __name__ == "__main__":

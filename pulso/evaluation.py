@@ -32,14 +32,14 @@ def promotion(baseline, challenger):
 
 def monitor(reference, evaluation, active_column):
     results = []
-    for (month, zone), window in evaluation.groupby([evaluation["day"].dt.to_period("M"), "zone"]):
+    for (month, zone), window in evaluation.groupby([evaluation["day"].dt.to_period("Q"), "zone"]):
         baseline = reference[reference["zone"] == zone]
         scale = max(float(baseline["seasonal"].quantile(.75) - baseline["seasonal"].quantile(.25)), 1)
         drift = abs(float(window["seasonal"].mean() - baseline["seasonal"].mean())) / scale
         ref_mae = float((baseline["trips"] - baseline[active_column]).abs().mean())
         mae = float((window["trips"] - window[active_column]).abs().mean())
         results.append({
-            "month": str(month), "zone": int(zone), "drift_score": round(drift, 3),
+            "period": str(month), "zone": int(zone), "drift_score": round(drift, 3),
             "drift_alert": drift >= 1, "reference_mae": round(ref_mae, 2), "mae": round(mae, 2),
             "performance_alert": mae > ref_mae + max(0.25 * ref_mae, 5),
             "observations": len(window),
