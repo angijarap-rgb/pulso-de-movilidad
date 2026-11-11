@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pronóstico y monitoreo de viajes diarios en taxi amarillo de Nueva York.">
+  <title>Pulso de Movilidad</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <span class="brand"><i aria-hidden="true"></i> Pulso de Movilidad</span>
+      <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">Datos de NYC TLC ↗</a>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro">
+      <div>
+        <p class="eyebrow" id="source">Nueva York · Taxi amarillo</p>
+        <h1>Viajes diarios por zona</h1>
+        <p>Compara las predicciones con los viajes observados y revisa la decisión de promoción del modelo.</p>
+      </div>
+      <div class="period"><span>Ventana de prueba</span><strong id="period">Cargando…</strong></div>
+    </section>
+    <p id="status" role="status"></p>
+    <div id="dashboard" hidden>
+      <section class="metrics" aria-label="Resultados de la evaluación">
+        <article><h2>Modelo activo</h2><strong id="active"></strong><p id="decision"></p></article>
+        <article><h2>Error medio en prueba</h2><strong id="mae"></strong><p>Viajes por zona y día · MAE</p></article>
+        <article><h2>Alertas en prueba</h2><strong id="alerts"></strong><p>Ventanas zona/mes con alguna señal</p></article>
+      </section>
+      <section class="panel">
+        <div class="panel-heading">
+          <div><h2>Pronóstico y viajes observados</h2><p>Reproducción histórica con horizonte de un día.</p></div>
+          <label for="zone">Zona de recogida<select id="zone"></select></label>
+        </div>
+        <div class="legend" aria-hidden="true"><span>Observado</span><span>Estacional</span><span>Candidato</span></div>
+        <canvas id="chart" role="img" aria-label="Serie diaria de viajes observados y pronosticados. Los valores están disponibles en la tabla de esta sección."></canvas>
+        <details><summary>Ver valores diarios</summary><div class="scroll"><table>
+          <thead><tr><th scope="col">Fecha</th><th scope="col">Observado</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
+          <tbody id="series"></tbody>
+        </table></div></details>
+      </section>
+      <div class="bottom">
+        <section class="panel">
+          <h2>Comparación de modelos</h2>
+          <p>Error medio absoluto en viajes. Menor es mejor.</p>
+          <div class="scroll"><table>
+            <thead><tr><th scope="col">Ventana</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
+            <tbody id="comparison"></tbody>
+          </table></div>
+          <p id="promotion"></p>
+        </section>
+        <section class="panel">
+          <h2>Monitoreo de la zona</h2>
+          <p>Drift de las entradas y error observado frente a validación.</p>
+          <div class="scroll"><table>
+            <thead><tr><th scope="col">Mes</th><th scope="col">Drift</th><th scope="col">MAE actual / ref.</th><th scope="col">Estado</th></tr></thead>
+            <tbody id="monitor"></tbody>
+          </table></div>
+        </section>
+      </div>
+      <footer><span id="run"></span><a href="report.json">Descargar reporte JSON</a></footer>
+    </div>
+  </main>
+</body>
+</html>
