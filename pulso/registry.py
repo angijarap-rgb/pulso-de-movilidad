@@ -10,7 +10,7 @@ class SeasonalRegressor(RegressorMixin, BaseEstimator):
         return self
 
     def predict(self, features):
-        return features["seasonal"].to_numpy()
+        return features["lag_12"].to_numpy()
 
 
 def registry_uri(root):

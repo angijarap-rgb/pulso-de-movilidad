@@ -1,0 +1,1249 @@
+mes,estacion,pasajeros
+2022-01,Villa El Salvador,432429
+2022-01,Parque Industrial,157062
+2022-01,Pumacahua,163588
+2022-01,Villa María,292058
+2022-01,María Auxiliadora,262933
+2022-01,San Juan,189603
+2022-01,Atocongo,277336
+2022-01,Jorge Chávez,124114
+2022-01,Ayacucho,134125
+2022-01,Cabitos,246675
+2022-01,Angamos,370391
+2022-01,San Borja Sur,155526
+2022-01,La Cultura,542269
+2022-01,Arriola,297030
+2022-01,Gamarra,709597
+2022-01,Grau,524527
+2022-01,El Ángel,57693
+2022-01,Presbítero Maestro,89913
+2022-01,Caja de Agua,331315
+2022-01,Pirámide del Sol,155077
+2022-01,Los Jardines,283740
+2022-01,Los Postes,201493
+2022-01,San Carlos,258909
+2022-01,San Martín,241176
+2022-01,Santa Rosa,269027
+2022-01,Bayóvar,639174
+2022-02,Villa El Salvador,450898
+2022-02,Parque Industrial,165780
+2022-02,Pumacahua,170765
+2022-02,Villa María,298690
+2022-02,María Auxiliadora,266954
+2022-02,San Juan,201172
+2022-02,Atocongo,282462
+2022-02,Jorge Chávez,132750
+2022-02,Ayacucho,140515
+2022-02,Cabitos,242628
+2022-02,Angamos,363832
+2022-02,San Borja Sur,170800
+2022-02,La Cultura,532756
+2022-02,Arriola,302775
+2022-02,Gamarra,689133
+2022-02,Grau,510138
+2022-02,El Ángel,77698
+2022-02,Presbítero Maestro,106546
+2022-02,Caja de Agua,336337
+2022-02,Pirámide del Sol,165171
+2022-02,Los Jardines,290175
+2022-02,Los Postes,208557
+2022-02,San Carlos,268077
+2022-02,San Martín,249815
+2022-02,Santa Rosa,272171
+2022-02,Bayóvar,644307
+2022-03,Villa El Salvador,489089
+2022-03,Parque Industrial,193745
+2022-03,Pumacahua,194426
+2022-03,Villa María,331416
+2022-03,María Auxiliadora,304191
+2022-03,San Juan,227123
+2022-03,Atocongo,307640
+2022-03,Jorge Chávez,155858
+2022-03,Ayacucho,160539
+2022-03,Cabitos,275387
+2022-03,Angamos,398511
+2022-03,San Borja Sur,202521
+2022-03,La Cultura,591621
+2022-03,Arriola,342994
+2022-03,Gamarra,739114
+2022-03,Grau,543983
+2022-03,El Ángel,97855
+2022-03,Presbítero Maestro,129801
+2022-03,Caja de Agua,369859
+2022-03,Pirámide del Sol,194460
+2022-03,Los Jardines,321630
+2022-03,Los Postes,232548
+2022-03,San Carlos,296753
+2022-03,San Martín,282166
+2022-03,Santa Rosa,299422
+2022-03,Bayóvar,703768
+2022-04,Villa El Salvador,503275
+2022-04,Parque Industrial,181484
+2022-04,Pumacahua,188693
+2022-04,Villa María,347369
+2022-04,María Auxiliadora,309865
+2022-04,San Juan,227941
+2022-04,Atocongo,329980
+2022-04,Jorge Chávez,158462
+2022-04,Ayacucho,175468
+2022-04,Cabitos,302168
+2022-04,Angamos,446661
+2022-04,San Borja Sur,183435
+2022-04,La Cultura,679027
+2022-04,Arriola,331529
+2022-04,Gamarra,848731
+2022-04,Grau,611502
+2022-04,El Ángel,56426
+2022-04,Presbítero Maestro,102629
+2022-04,Caja de Agua,388792
+2022-04,Pirámide del Sol,200320
+2022-04,Los Jardines,322756
+2022-04,Los Postes,227736
+2022-04,San Carlos,296288
+2022-04,San Martín,284136
+2022-04,Santa Rosa,300898
+2022-04,Bayóvar,742735
+2022-05,Villa El Salvador,627373
+2022-05,Parque Industrial,214959
+2022-05,Pumacahua,223340
+2022-05,Villa María,425812
+2022-05,María Auxiliadora,378997
+2022-05,San Juan,283874
+2022-05,Atocongo,412333
+2022-05,Jorge Chávez,190962
+2022-05,Ayacucho,213669
+2022-05,Cabitos,384983
+2022-05,Angamos,554960
+2022-05,San Borja Sur,215473
+2022-05,La Cultura,845895
+2022-05,Arriola,391334
+2022-05,Gamarra,1071124
+2022-05,Grau,766772
+2022-05,El Ángel,61126
+2022-05,Presbítero Maestro,117143
+2022-05,Caja de Agua,481029
+2022-05,Pirámide del Sol,249113
+2022-05,Los Jardines,386496
+2022-05,Los Postes,268378
+2022-05,San Carlos,353333
+2022-05,San Martín,341725
+2022-05,Santa Rosa,363284
+2022-05,Bayóvar,899955
+2022-06,Villa El Salvador,644045
+2022-06,Parque Industrial,214504
+2022-06,Pumacahua,225282
+2022-06,Villa María,437658
+2022-06,María Auxiliadora,390146
+2022-06,San Juan,296442
+2022-06,Atocongo,427138
+2022-06,Jorge Chávez,195405
+2022-06,Ayacucho,222395
+2022-06,Cabitos,400840
+2022-06,Angamos,572397
+2022-06,San Borja Sur,219910
+2022-06,La Cultura,875409
+2022-06,Arriola,396745
+2022-06,Gamarra,1116409
+2022-06,Grau,800503
+2022-06,El Ángel,57666
+2022-06,Presbítero Maestro,116533
+2022-06,Caja de Agua,494697
+2022-06,Pirámide del Sol,257152
+2022-06,Los Jardines,390519
+2022-06,Los Postes,270056
+2022-06,San Carlos,354307
+2022-06,San Martín,349488
+2022-06,Santa Rosa,373925
+2022-06,Bayóvar,902838
+2022-07,Villa El Salvador,674658
+2022-07,Parque Industrial,219359
+2022-07,Pumacahua,230062
+2022-07,Villa María,454012
+2022-07,María Auxiliadora,412969
+2022-07,San Juan,306959
+2022-07,Atocongo,457529
+2022-07,Jorge Chávez,195508
+2022-07,Ayacucho,223630
+2022-07,Cabitos,403340
+2022-07,Angamos,576423
+2022-07,San Borja Sur,218106
+2022-07,La Cultura,905893
+2022-07,Arriola,410610
+2022-07,Gamarra,1154904
+2022-07,Grau,842808
+2022-07,El Ángel,53029
+2022-07,Presbítero Maestro,116413
+2022-07,Caja de Agua,506686
+2022-07,Pirámide del Sol,259912
+2022-07,Los Jardines,406816
+2022-07,Los Postes,276507
+2022-07,San Carlos,361681
+2022-07,San Martín,358474
+2022-07,Santa Rosa,382225
+2022-07,Bayóvar,937561
+2022-08,Villa El Salvador,718619
+2022-08,Parque Industrial,231092
+2022-08,Pumacahua,243974
+2022-08,Villa María,484161
+2022-08,María Auxiliadora,433200
+2022-08,San Juan,323111
+2022-08,Atocongo,477796
+2022-08,Jorge Chávez,215727
+2022-08,Ayacucho,243328
+2022-08,Cabitos,443508
+2022-08,Angamos,639204
+2022-08,San Borja Sur,236396
+2022-08,La Cultura,985771
+2022-08,Arriola,442692
+2022-08,Gamarra,1149578
+2022-08,Grau,911575
+2022-08,El Ángel,53845
+2022-08,Presbítero Maestro,123990
+2022-08,Caja de Agua,542913
+2022-08,Pirámide del Sol,280399
+2022-08,Los Jardines,421321
+2022-08,Los Postes,288982
+2022-08,San Carlos,392328
+2022-08,San Martín,379326
+2022-08,Santa Rosa,399880
+2022-08,Bayóvar,982325
+2022-09,Villa El Salvador,743855
+2022-09,Parque Industrial,239989
+2022-09,Pumacahua,254189
+2022-09,Villa María,497326
+2022-09,María Auxiliadora,444432
+2022-09,San Juan,337292
+2022-09,Atocongo,491646
+2022-09,Jorge Chávez,234612
+2022-09,Ayacucho,256227
+2022-09,Cabitos,468492
+2022-09,Angamos,684364
+2022-09,San Borja Sur,248503
+2022-09,La Cultura,1054351
+2022-09,Arriola,453694
+2022-09,Gamarra,1124315
+2022-09,Grau,948176
+2022-09,El Ángel,53104
+2022-09,Presbítero Maestro,129359
+2022-09,Caja de Agua,574538
+2022-09,Pirámide del Sol,306660
+2022-09,Los Jardines,431960
+2022-09,Los Postes,298418
+2022-09,San Carlos,413384
+2022-09,San Martín,396866
+2022-09,Santa Rosa,417655
+2022-09,Bayóvar,1006038
+2022-10,Villa El Salvador,783847
+2022-10,Parque Industrial,249687
+2022-10,Pumacahua,267147
+2022-10,Villa María,520664
+2022-10,María Auxiliadora,461071
+2022-10,San Juan,352310
+2022-10,Atocongo,527713
+2022-10,Jorge Chávez,242581
+2022-10,Ayacucho,265586
+2022-10,Cabitos,480066
+2022-10,Angamos,707039
+2022-10,San Borja Sur,316090
+2022-10,La Cultura,944222
+2022-10,Arriola,508336
+2022-10,Gamarra,1172808
+2022-10,Grau,1004532
+2022-10,El Ángel,57596
+2022-10,Presbítero Maestro,135750
+2022-10,Caja de Agua,609125
+2022-10,Pirámide del Sol,320551
+2022-10,Los Jardines,453358
+2022-10,Los Postes,313013
+2022-10,San Carlos,426533
+2022-10,San Martín,414517
+2022-10,Santa Rosa,435263
+2022-10,Bayóvar,1094932
+2022-11,Villa El Salvador,783140
+2022-11,Parque Industrial,251343
+2022-11,Pumacahua,266711
+2022-11,Villa María,520324
+2022-11,María Auxiliadora,447858
+2022-11,San Juan,351362
+2022-11,Atocongo,522874
+2022-11,Jorge Chávez,241497
+2022-11,Ayacucho,266309
+2022-11,Cabitos,485797
+2022-11,Angamos,699942
+2022-11,San Borja Sur,261052
+2022-11,La Cultura,1052738
+2022-11,Arriola,479191
+2022-11,Gamarra,1179510
+2022-11,Grau,996932
+2022-11,El Ángel,62789
+2022-11,Presbítero Maestro,134505
+2022-11,Caja de Agua,599004
+2022-11,Pirámide del Sol,316848
+2022-11,Los Jardines,443434
+2022-11,Los Postes,312240
+2022-11,San Carlos,420083
+2022-11,San Martín,408627
+2022-11,Santa Rosa,422483
+2022-11,Bayóvar,1094085
+2022-12,Villa El Salvador,831996
+2022-12,Parque Industrial,260526
+2022-12,Pumacahua,280921
+2022-12,Villa María,546921
+2022-12,María Auxiliadora,468701
+2022-12,San Juan,368885
+2022-12,Atocongo,572622
+2022-12,Jorge Chávez,238572
+2022-12,Ayacucho,267844
+2022-12,Cabitos,487354
+2022-12,Angamos,687228
+2022-12,San Borja Sur,264876
+2022-12,La Cultura,1048608
+2022-12,Arriola,514571
+2022-12,Gamarra,1503634
+2022-12,Grau,1012009
+2022-12,El Ángel,54536
+2022-12,Presbítero Maestro,132851
+2022-12,Caja de Agua,628052
+2022-12,Pirámide del Sol,324992
+2022-12,Los Jardines,478652
+2022-12,Los Postes,336591
+2022-12,San Carlos,434096
+2022-12,San Martín,429156
+2022-12,Santa Rosa,451951
+2022-12,Bayóvar,1182595
+2023-01,Villa El Salvador,778681
+2023-01,Parque Industrial,238129
+2023-01,Pumacahua,260725
+2023-01,Villa María,499422
+2023-01,María Auxiliadora,431998
+2023-01,San Juan,331615
+2023-01,Atocongo,514390
+2023-01,Jorge Chávez,225888
+2023-01,Ayacucho,261798
+2023-01,Cabitos,486684
+2023-01,Angamos,697599
+2023-01,San Borja Sur,258779
+2023-01,La Cultura,1089877
+2023-01,Arriola,472341
+2023-01,Gamarra,1106449
+2023-01,Grau,956853
+2023-01,El Ángel,50217
+2023-01,Presbítero Maestro,131821
+2023-01,Caja de Agua,582347
+2023-01,Pirámide del Sol,310911
+2023-01,Los Jardines,466820
+2023-01,Los Postes,311584
+2023-01,San Carlos,404460
+2023-01,San Martín,399921
+2023-01,Santa Rosa,420732
+2023-01,Bayóvar,1102880
+2023-02,Villa El Salvador,747106
+2023-02,Parque Industrial,224640
+2023-02,Pumacahua,248393
+2023-02,Villa María,469012
+2023-02,María Auxiliadora,406943
+2023-02,San Juan,319538
+2023-02,Atocongo,485147
+2023-02,Jorge Chávez,218203
+2023-02,Ayacucho,243665
+2023-02,Cabitos,450144
+2023-02,Angamos,653509
+2023-02,San Borja Sur,240308
+2023-02,La Cultura,1022013
+2023-02,Arriola,443628
+2023-02,Gamarra,1085234
+2023-02,Grau,933524
+2023-02,El Ángel,47091
+2023-02,Presbítero Maestro,125938
+2023-02,Caja de Agua,574697
+2023-02,Pirámide del Sol,297225
+2023-02,Los Jardines,442815
+2023-02,Los Postes,298692
+2023-02,San Carlos,385735
+2023-02,San Martín,388772
+2023-02,Santa Rosa,396263
+2023-02,Bayóvar,1066209
+2023-03,Villa El Salvador,885630
+2023-03,Parque Industrial,264841
+2023-03,Pumacahua,292382
+2023-03,Villa María,566931
+2023-03,María Auxiliadora,487409
+2023-03,San Juan,387198
+2023-03,Atocongo,557223
+2023-03,Jorge Chávez,259831
+2023-03,Ayacucho,293226
+2023-03,Cabitos,550230
+2023-03,Angamos,789693
+2023-03,San Borja Sur,285827
+2023-03,La Cultura,1222374
+2023-03,Arriola,526710
+2023-03,Gamarra,1207477
+2023-03,Grau,1109716
+2023-03,El Ángel,54545
+2023-03,Presbítero Maestro,144661
+2023-03,Caja de Agua,659545
+2023-03,Pirámide del Sol,344888
+2023-03,Los Jardines,491128
+2023-03,Los Postes,340162
+2023-03,San Carlos,458118
+2023-03,San Martín,440551
+2023-03,Santa Rosa,449503
+2023-03,Bayóvar,1204438
+2023-04,Villa El Salvador,858535
+2023-04,Parque Industrial,254881
+2023-04,Pumacahua,277880
+2023-04,Villa María,543537
+2023-04,María Auxiliadora,460646
+2023-04,San Juan,371082
+2023-04,Atocongo,534165
+2023-04,Jorge Chávez,248366
+2023-04,Ayacucho,281112
+2023-04,Cabitos,521006
+2023-04,Angamos,738322
+2023-04,San Borja Sur,257989
+2023-04,La Cultura,1155166
+2023-04,Arriola,480685
+2023-04,Gamarra,1133238
+2023-04,Grau,1093282
+2023-04,El Ángel,50770
+2023-04,Presbítero Maestro,138067
+2023-04,Caja de Agua,627910
+2023-04,Pirámide del Sol,334319
+2023-04,Los Jardines,465122
+2023-04,Los Postes,320912
+2023-04,San Carlos,450146
+2023-04,San Martín,417900
+2023-04,Santa Rosa,426484
+2023-04,Bayóvar,1144075
+2023-05,Villa El Salvador,945053
+2023-05,Parque Industrial,282396
+2023-05,Pumacahua,307024
+2023-05,Villa María,586322
+2023-05,María Auxiliadora,499837
+2023-05,San Juan,416468
+2023-05,Atocongo,565214
+2023-05,Jorge Chávez,278671
+2023-05,Ayacucho,309316
+2023-05,Cabitos,560593
+2023-05,Angamos,815666
+2023-05,San Borja Sur,291337
+2023-05,La Cultura,1248011
+2023-05,Arriola,532168
+2023-05,Gamarra,1276011
+2023-05,Grau,1212556
+2023-05,El Ángel,60735
+2023-05,Presbítero Maestro,153667
+2023-05,Caja de Agua,681126
+2023-05,Pirámide del Sol,371909
+2023-05,Los Jardines,500630
+2023-05,Los Postes,349267
+2023-05,San Carlos,489420
+2023-05,San Martín,475481
+2023-05,Santa Rosa,458074
+2023-05,Bayóvar,1241119
+2023-06,Villa El Salvador,907081
+2023-06,Parque Industrial,273559
+2023-06,Pumacahua,293713
+2023-06,Villa María,561824
+2023-06,María Auxiliadora,477481
+2023-06,San Juan,402879
+2023-06,Atocongo,535915
+2023-06,Jorge Chávez,266368
+2023-06,Ayacucho,301399
+2023-06,Cabitos,507647
+2023-06,Angamos,783793
+2023-06,San Borja Sur,287567
+2023-06,La Cultura,1229325
+2023-06,Arriola,513028
+2023-06,Gamarra,1237563
+2023-06,Grau,1178281
+2023-06,El Ángel,57651
+2023-06,Presbítero Maestro,149897
+2023-06,Caja de Agua,649358
+2023-06,Pirámide del Sol,358708
+2023-06,Los Jardines,479506
+2023-06,Los Postes,335029
+2023-06,San Carlos,464447
+2023-06,San Martín,460582
+2023-06,Santa Rosa,444204
+2023-06,Bayóvar,1202085
+2023-07,Villa El Salvador,902400
+2023-07,Parque Industrial,262934
+2023-07,Pumacahua,291084
+2023-07,Villa María,551009
+2023-07,María Auxiliadora,466466
+2023-07,San Juan,396298
+2023-07,Atocongo,551304
+2023-07,Jorge Chávez,254718
+2023-07,Ayacucho,290651
+2023-07,Cabitos,541708
+2023-07,Angamos,762693
+2023-07,San Borja Sur,281449
+2023-07,La Cultura,1174511
+2023-07,Arriola,509395
+2023-07,Gamarra,1288502
+2023-07,Grau,1133802
+2023-07,El Ángel,52635
+2023-07,Presbítero Maestro,145878
+2023-07,Caja de Agua,652046
+2023-07,Pirámide del Sol,349469
+2023-07,Los Jardines,481454
+2023-07,Los Postes,334403
+2023-07,San Carlos,441885
+2023-07,San Martín,452276
+2023-07,Santa Rosa,438682
+2023-07,Bayóvar,1203496
+2023-08,Villa El Salvador,944122
+2023-08,Parque Industrial,275204
+2023-08,Pumacahua,303980
+2023-08,Villa María,570183
+2023-08,María Auxiliadora,493947
+2023-08,San Juan,406076
+2023-08,Atocongo,554531
+2023-08,Jorge Chávez,267651
+2023-08,Ayacucho,305916
+2023-08,Cabitos,567302
+2023-08,Angamos,817436
+2023-08,San Borja Sur,303098
+2023-08,La Cultura,1250613
+2023-08,Arriola,529470
+2023-08,Gamarra,1278281
+2023-08,Grau,1192580
+2023-08,El Ángel,52604
+2023-08,Presbítero Maestro,152961
+2023-08,Caja de Agua,672249
+2023-08,Pirámide del Sol,363508
+2023-08,Los Jardines,495675
+2023-08,Los Postes,347108
+2023-08,San Carlos,470126
+2023-08,San Martín,447698
+2023-08,Santa Rosa,450135
+2023-08,Bayóvar,1229497
+2023-09,Villa El Salvador,926016
+2023-09,Parque Industrial,273192
+2023-09,Pumacahua,300806
+2023-09,Villa María,560210
+2023-09,María Auxiliadora,484887
+2023-09,San Juan,398743
+2023-09,Atocongo,554707
+2023-09,Jorge Chávez,256408
+2023-09,Ayacucho,304950
+2023-09,Cabitos,571356
+2023-09,Angamos,822303
+2023-09,San Borja Sur,292521
+2023-09,La Cultura,1249025
+2023-09,Arriola,518696
+2023-09,Gamarra,1245590
+2023-09,Grau,1186340
+2023-09,El Ángel,51234
+2023-09,Presbítero Maestro,152833
+2023-09,Caja de Agua,658059
+2023-09,Pirámide del Sol,368903
+2023-09,Los Jardines,476831
+2023-09,Los Postes,336393
+2023-09,San Carlos,476059
+2023-09,San Martín,461353
+2023-09,Santa Rosa,448453
+2023-09,Bayóvar,1182552
+2023-10,Villa El Salvador,974051
+2023-10,Parque Industrial,277474
+2023-10,Pumacahua,313772
+2023-10,Villa María,587819
+2023-10,María Auxiliadora,512302
+2023-10,San Juan,420009
+2023-10,Atocongo,586786
+2023-10,Jorge Chávez,275841
+2023-10,Ayacucho,308870
+2023-10,Cabitos,583987
+2023-10,Angamos,846499
+2023-10,San Borja Sur,306007
+2023-10,La Cultura,1230465
+2023-10,Arriola,543603
+2023-10,Gamarra,1305510
+2023-10,Grau,1250251
+2023-10,El Ángel,54873
+2023-10,Presbítero Maestro,160573
+2023-10,Caja de Agua,698331
+2023-10,Pirámide del Sol,395905
+2023-10,Los Jardines,505444
+2023-10,Los Postes,357192
+2023-10,San Carlos,490079
+2023-10,San Martín,486298
+2023-10,Santa Rosa,475038
+2023-10,Bayóvar,1251867
+2023-11,Villa El Salvador,960787
+2023-11,Parque Industrial,284451
+2023-11,Pumacahua,308902
+2023-11,Villa María,580390
+2023-11,María Auxiliadora,500321
+2023-11,San Juan,420793
+2023-11,Atocongo,582182
+2023-11,Jorge Chávez,271618
+2023-11,Ayacucho,309533
+2023-11,Cabitos,571344
+2023-11,Angamos,822622
+2023-11,San Borja Sur,299386
+2023-11,La Cultura,1199246
+2023-11,Arriola,526266
+2023-11,Gamarra,1312298
+2023-11,Grau,1214381
+2023-11,El Ángel,62230
+2023-11,Presbítero Maestro,161100
+2023-11,Caja de Agua,693719
+2023-11,Pirámide del Sol,405176
+2023-11,Los Jardines,501288
+2023-11,Los Postes,353970
+2023-11,San Carlos,483617
+2023-11,San Martín,475253
+2023-11,Santa Rosa,467729
+2023-11,Bayóvar,1252540
+2023-12,Villa El Salvador,1034592
+2023-12,Parque Industrial,293467
+2023-12,Pumacahua,323102
+2023-12,Villa María,609239
+2023-12,María Auxiliadora,527508
+2023-12,San Juan,456621
+2023-12,Atocongo,655420
+2023-12,Jorge Chávez,277235
+2023-12,Ayacucho,312294
+2023-12,Cabitos,564625
+2023-12,Angamos,809108
+2023-12,San Borja Sur,286434
+2023-12,La Cultura,1162779
+2023-12,Arriola,559048
+2023-12,Gamarra,1780445
+2023-12,Grau,1234716
+2023-12,El Ángel,55339
+2023-12,Presbítero Maestro,157038
+2023-12,Caja de Agua,736012
+2023-12,Pirámide del Sol,481356
+2023-12,Los Jardines,521460
+2023-12,Los Postes,374368
+2023-12,San Carlos,498007
+2023-12,San Martín,506869
+2023-12,Santa Rosa,506199
+2023-12,Bayóvar,1385269
+2024-01,Villa El Salvador,952006
+2024-01,Parque Industrial,272981
+2024-01,Pumacahua,303873
+2024-01,Villa María,555039
+2024-01,María Auxiliadora,477480
+2024-01,San Juan,399145
+2024-01,Atocongo,578817
+2024-01,Jorge Chávez,260225
+2024-01,Ayacucho,303720
+2024-01,Cabitos,558817
+2024-01,Angamos,785774
+2024-01,San Borja Sur,281904
+2024-01,La Cultura,1195703
+2024-01,Arriola,525138
+2024-01,Gamarra,1262988
+2024-01,Grau,1139071
+2024-01,El Ángel,50265
+2024-01,Presbítero Maestro,150679
+2024-01,Caja de Agua,673064
+2024-01,Pirámide del Sol,421812
+2024-01,Los Jardines,494221
+2024-01,Los Postes,343352
+2024-01,San Carlos,455608
+2024-01,San Martín,457492
+2024-01,Santa Rosa,464333
+2024-01,Bayóvar,1287682
+2024-02,Villa El Salvador,939903
+2024-02,Parque Industrial,263909
+2024-02,Pumacahua,294702
+2024-02,Villa María,544539
+2024-02,María Auxiliadora,462722
+2024-02,San Juan,393264
+2024-02,Atocongo,564948
+2024-02,Jorge Chávez,261067
+2024-02,Ayacucho,299145
+2024-02,Cabitos,542650
+2024-02,Angamos,782536
+2024-02,San Borja Sur,286326
+2024-02,La Cultura,1196041
+2024-02,Arriola,513397
+2024-02,Gamarra,1265414
+2024-02,Grau,1133183
+2024-02,El Ángel,47285
+2024-02,Presbítero Maestro,148574
+2024-02,Caja de Agua,666494
+2024-02,Pirámide del Sol,414711
+2024-02,Los Jardines,473538
+2024-02,Los Postes,338590
+2024-02,San Carlos,447669
+2024-02,San Martín,447079
+2024-02,Santa Rosa,445829
+2024-02,Bayóvar,1259126
+2024-03,Villa El Salvador,968380
+2024-03,Parque Industrial,268659
+2024-03,Pumacahua,303675
+2024-03,Villa María,572453
+2024-03,María Auxiliadora,482771
+2024-03,San Juan,414708
+2024-03,Atocongo,585440
+2024-03,Jorge Chávez,270738
+2024-03,Ayacucho,307712
+2024-03,Cabitos,564025
+2024-03,Angamos,806854
+2024-03,San Borja Sur,288490
+2024-03,La Cultura,1240870
+2024-03,Arriola,513756
+2024-03,Gamarra,1321750
+2024-03,Grau,1195614
+2024-03,El Ángel,51628
+2024-03,Presbítero Maestro,156552
+2024-03,Caja de Agua,696621
+2024-03,Pirámide del Sol,437049
+2024-03,Los Jardines,473990
+2024-03,Los Postes,352354
+2024-03,San Carlos,468921
+2024-03,San Martín,464874
+2024-03,Santa Rosa,458112
+2024-03,Bayóvar,1307653
+2024-04,Villa El Salvador,1032588
+2024-04,Parque Industrial,302715
+2024-04,Pumacahua,320975
+2024-04,Villa María,591356
+2024-04,María Auxiliadora,505992
+2024-04,San Juan,439103
+2024-04,Atocongo,598004
+2024-04,Jorge Chávez,300103
+2024-04,Ayacucho,331508
+2024-04,Cabitos,614683
+2024-04,Angamos,883212
+2024-04,San Borja Sur,309118
+2024-04,La Cultura,1372572
+2024-04,Arriola,533654
+2024-04,Gamarra,1328895
+2024-04,Grau,1310160
+2024-04,El Ángel,52773
+2024-04,Presbítero Maestro,168735
+2024-04,Caja de Agua,716804
+2024-04,Pirámide del Sol,459418
+2024-04,Los Jardines,475197
+2024-04,Los Postes,362055
+2024-04,San Carlos,524472
+2024-04,San Martín,502577
+2024-04,Santa Rosa,457593
+2024-04,Bayóvar,1338554
+2024-05,Villa El Salvador,1044154
+2024-05,Parque Industrial,312801
+2024-05,Pumacahua,331919
+2024-05,Villa María,609796
+2024-05,María Auxiliadora,516468
+2024-05,San Juan,457815
+2024-05,Atocongo,622596
+2024-05,Jorge Chávez,308798
+2024-05,Ayacucho,335897
+2024-05,Cabitos,622464
+2024-05,Angamos,881437
+2024-05,San Borja Sur,314275
+2024-05,La Cultura,1379917
+2024-05,Arriola,541994
+2024-05,Gamarra,1519753
+2024-05,Grau,1340882
+2024-05,El Ángel,60277
+2024-05,Presbítero Maestro,172951
+2024-05,Caja de Agua,738200
+2024-05,Pirámide del Sol,476123
+2024-05,Los Jardines,492945
+2024-05,Los Postes,372700
+2024-05,San Carlos,525133
+2024-05,San Martín,514178
+2024-05,Santa Rosa,466045
+2024-05,Bayóvar,1385522
+2024-06,Villa El Salvador,1032912
+2024-06,Parque Industrial,296335
+2024-06,Pumacahua,321955
+2024-06,Villa María,586004
+2024-06,María Auxiliadora,502304
+2024-06,San Juan,447224
+2024-06,Atocongo,615384
+2024-06,Jorge Chávez,295653
+2024-06,Ayacucho,320914
+2024-06,Cabitos,581520
+2024-06,Angamos,828472
+2024-06,San Borja Sur,296572
+2024-06,La Cultura,1277881
+2024-06,Arriola,512009
+2024-06,Gamarra,1590652
+2024-06,Grau,1289828
+2024-06,El Ángel,56644
+2024-06,Presbítero Maestro,166216
+2024-06,Caja de Agua,699584
+2024-06,Pirámide del Sol,458617
+2024-06,Los Jardines,480218
+2024-06,Los Postes,353350
+2024-06,San Carlos,499690
+2024-06,San Martín,490142
+2024-06,Santa Rosa,447826
+2024-06,Bayóvar,1335433
+2024-07,Villa El Salvador,1084773
+2024-07,Parque Industrial,307784
+2024-07,Pumacahua,333442
+2024-07,Villa María,604572
+2024-07,María Auxiliadora,520138
+2024-07,San Juan,455910
+2024-07,Atocongo,637555
+2024-07,Jorge Chávez,301297
+2024-07,Ayacucho,330651
+2024-07,Cabitos,591903
+2024-07,Angamos,843945
+2024-07,San Borja Sur,311298
+2024-07,La Cultura,1311428
+2024-07,Arriola,533211
+2024-07,Gamarra,1676266
+2024-07,Grau,1291625
+2024-07,El Ángel,53256
+2024-07,Presbítero Maestro,175391
+2024-07,Caja de Agua,719444
+2024-07,Pirámide del Sol,484505
+2024-07,Los Jardines,503430
+2024-07,Los Postes,367739
+2024-07,San Carlos,502547
+2024-07,San Martín,499926
+2024-07,Santa Rosa,465758
+2024-07,Bayóvar,1386636
+2024-08,Villa El Salvador,1072629
+2024-08,Parque Industrial,300561
+2024-08,Pumacahua,329783
+2024-08,Villa María,597081
+2024-08,María Auxiliadora,504780
+2024-08,San Juan,446654
+2024-08,Atocongo,620165
+2024-08,Jorge Chávez,299008
+2024-08,Ayacucho,330070
+2024-08,Cabitos,593155
+2024-08,Angamos,859484
+2024-08,San Borja Sur,313388
+2024-08,La Cultura,1329066
+2024-08,Arriola,531595
+2024-08,Gamarra,1546565
+2024-08,Grau,1268243
+2024-08,El Ángel,55698
+2024-08,Presbítero Maestro,181758
+2024-08,Caja de Agua,724795
+2024-08,Pirámide del Sol,481489
+2024-08,Los Jardines,504281
+2024-08,Los Postes,363497
+2024-08,San Carlos,508543
+2024-08,San Martín,482959
+2024-08,Santa Rosa,452146
+2024-08,Bayóvar,1384946
+2024-09,Villa El Salvador,1053320
+2024-09,Parque Industrial,301132
+2024-09,Pumacahua,326030
+2024-09,Villa María,584397
+2024-09,María Auxiliadora,517528
+2024-09,San Juan,435169
+2024-09,Atocongo,611296
+2024-09,Jorge Chávez,306255
+2024-09,Ayacucho,329663
+2024-09,Cabitos,597598
+2024-09,Angamos,859608
+2024-09,San Borja Sur,320733
+2024-09,La Cultura,1358669
+2024-09,Arriola,524739
+2024-09,Gamarra,1425095
+2024-09,Grau,1254728
+2024-09,El Ángel,56645
+2024-09,Presbítero Maestro,183694
+2024-09,Caja de Agua,703430
+2024-09,Pirámide del Sol,475801
+2024-09,Los Jardines,480319
+2024-09,Los Postes,354654
+2024-09,San Carlos,512750
+2024-09,San Martín,493553
+2024-09,Santa Rosa,432209
+2024-09,Bayóvar,1346314
+2024-10,Villa El Salvador,1082934
+2024-10,Parque Industrial,314773
+2024-10,Pumacahua,339707
+2024-10,Villa María,599515
+2024-10,María Auxiliadora,539066
+2024-10,San Juan,450112
+2024-10,Atocongo,632324
+2024-10,Jorge Chávez,306454
+2024-10,Ayacucho,339043
+2024-10,Cabitos,611659
+2024-10,Angamos,888539
+2024-10,San Borja Sur,327172
+2024-10,La Cultura,1410592
+2024-10,Arriola,546170
+2024-10,Gamarra,1510687
+2024-10,Grau,1312927
+2024-10,El Ángel,60064
+2024-10,Presbítero Maestro,193620
+2024-10,Caja de Agua,724551
+2024-10,Pirámide del Sol,512380
+2024-10,Los Jardines,504380
+2024-10,Los Postes,382653
+2024-10,San Carlos,539000
+2024-10,San Martín,515572
+2024-10,Santa Rosa,466569
+2024-10,Bayóvar,1414128
+2024-11,Villa El Salvador,1063295
+2024-11,Parque Industrial,305145
+2024-11,Pumacahua,329786
+2024-11,Villa María,580413
+2024-11,María Auxiliadora,519198
+2024-11,San Juan,448531
+2024-11,Atocongo,636632
+2024-11,Jorge Chávez,295027
+2024-11,Ayacucho,332501
+2024-11,Cabitos,591426
+2024-11,Angamos,869940
+2024-11,San Borja Sur,371091
+2024-11,La Cultura,1177936
+2024-11,Arriola,579378
+2024-11,Gamarra,1607433
+2024-11,Grau,1308723
+2024-11,El Ángel,69709
+2024-11,Presbítero Maestro,191205
+2024-11,Caja de Agua,719307
+2024-11,Pirámide del Sol,500035
+2024-11,Los Jardines,499742
+2024-11,Los Postes,374952
+2024-11,San Carlos,524969
+2024-11,San Martín,492528
+2024-11,Santa Rosa,476953
+2024-11,Bayóvar,1410945
+2024-12,Villa El Salvador,1184035
+2024-12,Parque Industrial,334100
+2024-12,Pumacahua,367471
+2024-12,Villa María,643856
+2024-12,María Auxiliadora,573812
+2024-12,San Juan,508522
+2024-12,Atocongo,744468
+2024-12,Jorge Chávez,316197
+2024-12,Ayacucho,348874
+2024-12,Cabitos,622296
+2024-12,Angamos,890711
+2024-12,San Borja Sur,325152
+2024-12,La Cultura,1343561
+2024-12,Arriola,588058
+2024-12,Gamarra,2115508
+2024-12,Grau,1390340
+2024-12,El Ángel,62368
+2024-12,Presbítero Maestro,193197
+2024-12,Caja de Agua,809440
+2024-12,Pirámide del Sol,559202
+2024-12,Los Jardines,525747
+2024-12,Los Postes,411634
+2024-12,San Carlos,555974
+2024-12,San Martín,546317
+2024-12,Santa Rosa,532570
+2024-12,Bayóvar,1554440
+2025-01,Villa El Salvador,1085979
+2025-01,Parque Industrial,311563
+2025-01,Pumacahua,315469
+2025-01,Villa María,583917
+2025-01,María Auxiliadora,522935
+2025-01,San Juan,450713
+2025-01,Atocongo,648337
+2025-01,Jorge Chávez,298919
+2025-01,Ayacucho,340202
+2025-01,Cabitos,627378
+2025-01,Angamos,872906
+2025-01,San Borja Sur,339172
+2025-01,La Cultura,1358548
+2025-01,Arriola,565794
+2025-01,Gamarra,1482584
+2025-01,Grau,1268169
+2025-01,El Ángel,55033
+2025-01,Presbítero Maestro,181758
+2025-01,Caja de Agua,742547
+2025-01,Pirámide del Sol,493355
+2025-01,Los Jardines,510511
+2025-01,Los Postes,375483
+2025-01,San Carlos,501777
+2025-01,San Martín,495468
+2025-01,Santa Rosa,479988
+2025-01,Bayóvar,1427173
+2025-02,Villa El Salvador,1031576
+2025-02,Parque Industrial,267248
+2025-02,Pumacahua,318781
+2025-02,Villa María,552219
+2025-02,María Auxiliadora,489578
+2025-02,San Juan,421292
+2025-02,Atocongo,609187
+2025-02,Jorge Chávez,281653
+2025-02,Ayacucho,323783
+2025-02,Cabitos,570078
+2025-02,Angamos,814413
+2025-02,San Borja Sur,312230
+2025-02,La Cultura,1278423
+2025-02,Arriola,529242
+2025-02,Gamarra,1421388
+2025-02,Grau,1165587
+2025-02,El Ángel,48760
+2025-02,Presbítero Maestro,165807
+2025-02,Caja de Agua,696714
+2025-02,Pirámide del Sol,461684
+2025-02,Los Jardines,471540
+2025-02,Los Postes,348698
+2025-02,San Carlos,478924
+2025-02,San Martín,453640
+2025-02,Santa Rosa,446781
+2025-02,Bayóvar,1339603
+2025-03,Villa El Salvador,1120739
+2025-03,Parque Industrial,305670
+2025-03,Pumacahua,350540
+2025-03,Villa María,612377
+2025-03,María Auxiliadora,535175
+2025-03,San Juan,472451
+2025-03,Atocongo,651894
+2025-03,Jorge Chávez,312141
+2025-03,Ayacucho,355445
+2025-03,Cabitos,640679
+2025-03,Angamos,914576
+2025-03,San Borja Sur,350670
+2025-03,La Cultura,1429808
+2025-03,Arriola,578987
+2025-03,Gamarra,1541960
+2025-03,Grau,1250180
+2025-03,El Ángel,56574
+2025-03,Presbítero Maestro,182208
+2025-03,Caja de Agua,769649
+2025-03,Pirámide del Sol,507643
+2025-03,Los Jardines,499178
+2025-03,Los Postes,375596
+2025-03,San Carlos,536825
+2025-03,San Martín,492290
+2025-03,Santa Rosa,478721
+2025-03,Bayóvar,1479779
+2025-04,Villa El Salvador,1079856
+2025-04,Parque Industrial,316260
+2025-04,Pumacahua,339467
+2025-04,Villa María,580306
+2025-04,María Auxiliadora,523696
+2025-04,San Juan,449836
+2025-04,Atocongo,629648
+2025-04,Jorge Chávez,304504
+2025-04,Ayacucho,339145
+2025-04,Cabitos,624584
+2025-04,Angamos,912193
+2025-04,San Borja Sur,335460
+2025-04,La Cultura,1421201
+2025-04,Arriola,555518
+2025-04,Gamarra,1425263
+2025-04,Grau,1236211
+2025-04,El Ángel,54053
+2025-04,Presbítero Maestro,175831
+2025-04,Caja de Agua,741794
+2025-04,Pirámide del Sol,485767
+2025-04,Los Jardines,467215
+2025-04,Los Postes,356481
+2025-04,San Carlos,537463
+2025-04,San Martín,472505
+2025-04,Santa Rosa,450972
+2025-04,Bayóvar,1373762
+2025-05,Villa El Salvador,1174904
+2025-05,Parque Industrial,335735
+2025-05,Pumacahua,367242
+2025-05,Villa María,617985
+2025-05,María Auxiliadora,562137
+2025-05,San Juan,486144
+2025-05,Atocongo,677409
+2025-05,Jorge Chávez,329347
+2025-05,Ayacucho,362588
+2025-05,Cabitos,655663
+2025-05,Angamos,952814
+2025-05,San Borja Sur,354433
+2025-05,La Cultura,1515062
+2025-05,Arriola,587696
+2025-05,Gamarra,1736949
+2025-05,Grau,1297904
+2025-05,El Ángel,63974
+2025-05,Presbítero Maestro,186292
+2025-05,Caja de Agua,776064
+2025-05,Pirámide del Sol,527068
+2025-05,Los Jardines,500543
+2025-05,Los Postes,381262
+2025-05,San Carlos,563301
+2025-05,San Martín,516559
+2025-05,Santa Rosa,478159
+2025-05,Bayóvar,1484269
+2025-06,Villa El Salvador,1109210
+2025-06,Parque Industrial,322094
+2025-06,Pumacahua,349599
+2025-06,Villa María,576354
+2025-06,María Auxiliadora,524515
+2025-06,San Juan,454366
+2025-06,Atocongo,632757
+2025-06,Jorge Chávez,312745
+2025-06,Ayacucho,341508
+2025-06,Cabitos,606801
+2025-06,Angamos,888561
+2025-06,San Borja Sur,347473
+2025-06,La Cultura,1429818
+2025-06,Arriola,552742
+2025-06,Gamarra,1619484
+2025-06,Grau,1210642
+2025-06,El Ángel,54750
+2025-06,Presbítero Maestro,173796
+2025-06,Caja de Agua,741297
+2025-06,Pirámide del Sol,491456
+2025-06,Los Jardines,470630
+2025-06,Los Postes,361060
+2025-06,San Carlos,523491
+2025-06,San Martín,491698
+2025-06,Santa Rosa,449091
+2025-06,Bayóvar,1389380
+2025-07,Villa El Salvador,1129834
+2025-07,Parque Industrial,329641
+2025-07,Pumacahua,350891
+2025-07,Villa María,592491
+2025-07,María Auxiliadora,533907
+2025-07,San Juan,469139
+2025-07,Atocongo,651393
+2025-07,Jorge Chávez,313522
+2025-07,Ayacucho,340714
+2025-07,Cabitos,624573
+2025-07,Angamos,878080
+2025-07,San Borja Sur,346331
+2025-07,La Cultura,1402899
+2025-07,Arriola,560256
+2025-07,Gamarra,1691244
+2025-07,Grau,1212817
+2025-07,El Ángel,55757
+2025-07,Presbítero Maestro,174278
+2025-07,Caja de Agua,772915
+2025-07,Pirámide del Sol,512101
+2025-07,Los Jardines,492429
+2025-07,Los Postes,370977
+2025-07,San Carlos,523735
+2025-07,San Martín,498728
+2025-07,Santa Rosa,450748
+2025-07,Bayóvar,1444254
+2025-08,Villa El Salvador,1121991
+2025-08,Parque Industrial,324356
+2025-08,Pumacahua,348001
+2025-08,Villa María,588685
+2025-08,María Auxiliadora,546900
+2025-08,San Juan,450020
+2025-08,Atocongo,652709
+2025-08,Jorge Chávez,312523
+2025-08,Ayacucho,340372
+2025-08,Cabitos,629316
+2025-08,Angamos,890764
+2025-08,San Borja Sur,341966
+2025-08,La Cultura,1427021
+2025-08,Arriola,566051
+2025-08,Gamarra,1620374
+2025-08,Grau,1190477
+2025-08,El Ángel,54907
+2025-08,Presbítero Maestro,173855
+2025-08,Caja de Agua,780036
+2025-08,Pirámide del Sol,505880
+2025-08,Los Jardines,489651
+2025-08,Los Postes,368911
+2025-08,San Carlos,520107
+2025-08,San Martín,487884
+2025-08,Santa Rosa,450844
+2025-08,Bayóvar,1424563
+2025-09,Villa El Salvador,1132093
+2025-09,Parque Industrial,332416
+2025-09,Pumacahua,357898
+2025-09,Villa María,580709
+2025-09,María Auxiliadora,549583
+2025-09,San Juan,450787
+2025-09,Atocongo,646616
+2025-09,Jorge Chávez,316030
+2025-09,Ayacucho,353534
+2025-09,Cabitos,661401
+2025-09,Angamos,947487
+2025-09,San Borja Sur,346777
+2025-09,La Cultura,1528707
+2025-09,Arriola,598909
+2025-09,Gamarra,1597434
+2025-09,Grau,1094610
+2025-09,El Ángel,61672
+2025-09,Presbítero Maestro,198235
+2025-09,Caja de Agua,787097
+2025-09,Pirámide del Sol,518850
+2025-09,Los Jardines,472853
+2025-09,Los Postes,369199
+2025-09,San Carlos,537588
+2025-09,San Martín,506142
+2025-09,Santa Rosa,444157
+2025-09,Bayóvar,1404579
+2025-10,Villa El Salvador,1161283
+2025-10,Parque Industrial,343873
+2025-10,Pumacahua,378475
+2025-10,Villa María,594468
+2025-10,María Auxiliadora,556488
+2025-10,San Juan,470917
+2025-10,Atocongo,672515
+2025-10,Jorge Chávez,312321
+2025-10,Ayacucho,354089
+2025-10,Cabitos,673419
+2025-10,Angamos,958723
+2025-10,San Borja Sur,361623
+2025-10,La Cultura,1561489
+2025-10,Arriola,633331
+2025-10,Gamarra,1748986
+2025-10,Grau,1035850
+2025-10,El Ángel,69336
+2025-10,Presbítero Maestro,223569
+2025-10,Caja de Agua,831375
+2025-10,Pirámide del Sol,537109
+2025-10,Los Jardines,487862
+2025-10,Los Postes,378625
+2025-10,San Carlos,539987
+2025-10,San Martín,511570
+2025-10,Santa Rosa,453856
+2025-10,Bayóvar,1443339
+2025-11,Villa El Salvador,1152823
+2025-11,Parque Industrial,345371
+2025-11,Pumacahua,370465
+2025-11,Villa María,581694
+2025-11,María Auxiliadora,533949
+2025-11,San Juan,476277
+2025-11,Atocongo,680157
+2025-11,Jorge Chávez,310923
+2025-11,Ayacucho,348769
+2025-11,Cabitos,661853
+2025-11,Angamos,925066
+2025-11,San Borja Sur,351949
+2025-11,La Cultura,1527750
+2025-11,Arriola,624453
+2025-11,Gamarra,1817726
+2025-11,Grau,1023022
+2025-11,El Ángel,78130
+2025-11,Presbítero Maestro,221401
+2025-11,Caja de Agua,801284
+2025-11,Pirámide del Sol,530263
+2025-11,Los Jardines,481081
+2025-11,Los Postes,372230
+2025-11,San Carlos,523429
+2025-11,San Martín,499519
+2025-11,Santa Rosa,445288
+2025-11,Bayóvar,1406476
+2025-12,Villa El Salvador,1248904
+2025-12,Parque Industrial,363922
+2025-12,Pumacahua,389168
+2025-12,Villa María,631795
+2025-12,María Auxiliadora,572878
+2025-12,San Juan,528396
+2025-12,Atocongo,771943
+2025-12,Jorge Chávez,321283
+2025-12,Ayacucho,360770
+2025-12,Cabitos,673341
+2025-12,Angamos,946030
+2025-12,San Borja Sur,348304
+2025-12,La Cultura,1492534
+2025-12,Arriola,662473
+2025-12,Gamarra,2354234
+2025-12,Grau,1013305
+2025-12,El Ángel,73847
+2025-12,Presbítero Maestro,234116
+2025-12,Caja de Agua,879297
+2025-12,Pirámide del Sol,581636
+2025-12,Los Jardines,512309
+2025-12,Los Postes,401554
+2025-12,San Carlos,541911
+2025-12,San Martín,533185
+2025-12,Santa Rosa,488392
+2025-12,Bayóvar,1532279
