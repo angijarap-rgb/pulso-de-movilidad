@@ -1,5 +1,6 @@
 const byId = (id) => document.getElementById(id);
 const format = new Intl.NumberFormat("es-PE", { maximumFractionDigits: 1 });
+const compact = new Intl.NumberFormat("es-PE", { notation: "compact", maximumFractionDigits: 1 });
 const names = { baseline: "Estacional", challenger: "Candidato" };
 
 function tableBody(id, rows) {
@@ -38,14 +39,13 @@ function drawChart(rows) {
     ctx.moveTo(left, position);
     ctx.lineTo(right, position);
     ctx.stroke();
-    ctx.fillText(format.format(value), 1, position + 4);
+    ctx.fillText(compact.format(value), 1, position + 4);
   }
   const ticks = width < 500 ? 3 : 5;
   for (let tick = 0; tick < ticks; tick++) {
     const index = Math.round(tick * (rows.length - 1) / (ticks - 1));
     ctx.textAlign = tick === 0 ? "left" : tick === ticks - 1 ? "right" : "center";
-    const [, month, day] = rows[index][0].split("-");
-    ctx.fillText(day + "/" + month, x(index), bottom + 20);
+    ctx.fillText(rows[index][0], x(index), bottom + 20);
   }
   const series = [[2, "#125f4b", []], [3, "#aa5c21", [5, 4]], [4, "#5b4ca3", [2, 3]]];
   for (const [column, color, dash] of series) {
@@ -64,8 +64,8 @@ function drawChart(rows) {
 function dashboard(report) {
   const selector = byId("zone");
   const { decision, metrics, monitoring, windows } = report;
-  byId("source").textContent = report.kind === "tlc" ? "Nueva York · Taxi amarillo" : "Simulación · Datos sintéticos";
-  byId("period").textContent = windows.test.join(" a ");
+  byId("source").textContent = "Perú · Línea 1 del Metro de Lima";
+  byId("period").textContent = windows.test.map((day) => day.slice(0, 7)).join(" a ");
   byId("active").textContent = names[decision.active];
   byId("decision").textContent = decision.active === "challenger" ? "Candidato promovido en validación" : "Se conserva el baseline estacional";
   byId("mae").textContent = format.format(metrics.test[decision.active].mae);
@@ -73,7 +73,7 @@ function dashboard(report) {
   byId("run").textContent = "Ejecución " + report.run_id;
   byId("promotion").textContent =
     "Mejora del candidato en validación: " + format.format(100 * decision.validation_improvement) +
-    "%. Mínimo requerido: 3%. Zonas con regresión sobre el umbral: " +
+    "%. Mínimo requerido: 3%. Estaciones con regresión sobre el umbral: " +
     (decision.regressed_zones.map((zone) => report.zones[zone]).join(", ") || "ninguna") + ".";
   tableBody("comparison", [["Validación", metrics.validation], ["Prueba", metrics.test]].map(([label, group]) => [
     label, format.format(group.baseline.mae), format.format(group.challenger.mae),
@@ -87,7 +87,7 @@ function dashboard(report) {
       day, format.format(actual), format.format(baseline), format.format(challenger),
     ]));
     tableBody("monitor", monitoring.filter((row) => row.zone === zone).map((row) => [
-      row.month,
+      row.period,
       format.format(row.drift_score),
       format.format(row.mae) + " / " + format.format(row.reference_mae),
       [row.drift_alert && "Drift", row.performance_alert && "Error alto"].filter(Boolean).join(" y ") || "Sin alerta",

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Pronóstico y monitoreo de viajes diarios en taxi amarillo de Nueva York.">
+  <meta name="description" content="Pronóstico y monitoreo de pasajeros mensuales en la Línea 1 del Metro de Lima.">
   <title>Pulso de Movilidad</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" type="module"></script>
@@ -12,15 +12,15 @@
   <header class="masthead">
     <div class="shell masthead-inner">
       <span class="brand"><i aria-hidden="true"></i> Pulso de Movilidad</span>
-      <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">Datos de NYC TLC ↗</a>
+      <a href="https://www.gob.pe/institucion/mtc/informes-publicaciones/345063-estadistica-servicios-de-transporte-terrestre-por-ferrovia-servicio-de-pasajeros">Datos del MTC ↗</a>
     </div>
   </header>
   <main class="shell">
     <section class="intro">
       <div>
-        <p class="eyebrow" id="source">Nueva York · Taxi amarillo</p>
-        <h1>Viajes diarios por zona</h1>
-        <p>Compara las predicciones con los viajes observados y revisa la decisión de promoción del modelo.</p>
+        <p class="eyebrow" id="source">Perú · Línea 1 del Metro de Lima</p>
+        <h1>Pasajeros por estación</h1>
+        <p>Compara las predicciones con los pasajeros observados y revisa la decisión de promoción del modelo.</p>
       </div>
       <div class="period"><span>Ventana de prueba</span><strong id="period">Cargando…</strong></div>
     </section>
@@ -28,17 +28,17 @@
     <div id="dashboard" hidden>
       <section class="metrics" aria-label="Resultados de la evaluación">
         <article><h2>Modelo activo</h2><strong id="active"></strong><p id="decision"></p></article>
-        <article><h2>Error medio en prueba</h2><strong id="mae"></strong><p>Viajes por zona y día · MAE</p></article>
-        <article><h2>Alertas en prueba</h2><strong id="alerts"></strong><p>Ventanas zona/mes con alguna señal</p></article>
+        <article><h2>Error medio en prueba</h2><strong id="mae"></strong><p>Pasajeros por estación y mes · MAE</p></article>
+        <article><h2>Alertas en prueba</h2><strong id="alerts"></strong><p>Ventanas estación/trimestre con alguna señal</p></article>
       </section>
       <section class="panel">
         <div class="panel-heading">
-          <div><h2>Pronóstico y viajes observados</h2><p>Reproducción histórica con horizonte de un día.</p></div>
-          <label for="zone">Zona de recogida<select id="zone"></select></label>
+          <div><h2>Pronóstico y pasajeros observados</h2><p>Reproducción histórica con horizonte de un mes.</p></div>
+          <label for="zone">Estación<select id="zone"></select></label>
         </div>
         <div class="legend" aria-hidden="true"><span>Observado</span><span>Estacional</span><span>Candidato</span></div>
-        <canvas id="chart" role="img" aria-label="Serie diaria de viajes observados y pronosticados. Los valores están disponibles en la tabla de esta sección."></canvas>
-        <details><summary>Ver valores diarios</summary><div class="scroll"><table>
+        <canvas id="chart" role="img" aria-label="Serie mensual de pasajeros observados y pronosticados. Los valores están disponibles en la tabla de esta sección."></canvas>
+        <details><summary>Ver valores mensuales</summary><div class="scroll"><table>
           <thead><tr><th scope="col">Fecha</th><th scope="col">Observado</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
           <tbody id="series"></tbody>
         </table></div></details>
@@ -46,7 +46,7 @@
       <div class="bottom">
         <section class="panel">
           <h2>Comparación de modelos</h2>
-          <p>Error medio absoluto en viajes. Menor es mejor.</p>
+          <p>Error medio absoluto en pasajeros. Menor es mejor.</p>
           <div class="scroll"><table>
             <thead><tr><th scope="col">Ventana</th><th scope="col">Estacional</th><th scope="col">Candidato</th></tr></thead>
             <tbody id="comparison"></tbody>
@@ -54,10 +54,10 @@
           <p id="promotion"></p>
         </section>
         <section class="panel">
-          <h2>Monitoreo de la zona</h2>
+          <h2>Monitoreo de la estación</h2>
           <p>Drift de las entradas y error observado frente a validación.</p>
           <div class="scroll"><table>
-            <thead><tr><th scope="col">Mes</th><th scope="col">Drift</th><th scope="col">MAE actual / ref.</th><th scope="col">Estado</th></tr></thead>
+            <thead><tr><th scope="col">Trimestre</th><th scope="col">Drift</th><th scope="col">MAE actual / ref.</th><th scope="col">Estado</th></tr></thead>
             <tbody id="monitor"></tbody>
           </table></div>
         </section>
